@@ -1,0 +1,24 @@
+{
+  "name": "sampleMetalsmith",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -rf public/ && mkdir public",
+    "prebuild": "npm run clean",
+    "build": "npm run metalsmith",
+    "metalsmith": "node metalsmith.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "metalsmith-branch": "0.0.4",
+    "metalsmith-date-in-filename": "0.0.14",
+    "metalsmith-filemetadata": "0.0.4",
+    "metalsmith": "^2.1.0",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.4.0",
+    "metalsmith-react-templates": "^2.1.0",
+    "react": "^0.13.3"
+  }
+}
